@@ -1,0 +1,18 @@
+{
+    "configurations": [
+    {
+        "args": [
+            "${workspaceFolder}/spec/appSpec.js",
+            "**/model/**/critical/**/*Spec.js"
+        ],
+        "internalConsoleOptions": "openOnSessionStart",
+        "name": "Jasmine Tests",
+        "program": "${workspaceFolder}/node_modules/jasmine/bin/jasmine",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    }
+    ]
+}
