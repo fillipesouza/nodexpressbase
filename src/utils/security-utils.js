@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const secret = "ExchangePasswordExchangePassword"; // must have 32 bytes
 
 
-const resizedIV = Buffer.allocUnsafe(16);
+const resizedIV = "ExchangePassword"
 
 /**
  * Sign the payload and return the token string
